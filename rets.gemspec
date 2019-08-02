@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<httpclient>, ["~> 2.7.0"])
+      s.add_runtime_dependency(%q<httpclient>, ["~> 2.8.0"])
       s.add_runtime_dependency(%q<http-cookie>, ["~> 1.0.0"])
       s.add_runtime_dependency(%q<nokogiri>, ["~> 1.5"])
       s.add_development_dependency(%q<rdoc>, ["~> 4.0"])
